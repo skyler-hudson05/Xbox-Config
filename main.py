@@ -1,5 +1,5 @@
 class Xbox:
-  def __init__(self, color, size, disk):
+  def __init__(self, color, size, disk): # Giving the xbox different attributes
     self.color = color
     self.size = size
     self.disk = disk
@@ -14,7 +14,7 @@ class Xbox:
     return "Your xbox is turning off..."
 
 class XboxController:
-  def __init__(self, color):
+  def __init__(self, color): # Giving the xbox controller different attributes
     self.color = color
 
   def __str__(self):
@@ -27,6 +27,7 @@ class XboxController:
     return "Your controller is turning off..."
 
 
+# Printing out the different Methods and Objects
 xboxSeriesS = Xbox("white", "small", "no")
 xboxController1 = XboxController("white")
 print(xboxSeriesS)
